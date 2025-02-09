@@ -169,7 +169,7 @@ export default function Home() {
                   <CardDescription className="mb-3 text-center">
                     内置丰富的搜索引擎，包含网页、地图、技术等，提供极致的搜索服务
                   </CardDescription>
-                  <div className="flex gap-6">
+                  <div className="flex flex-col gap-6 md:flex-row">
                     <Image
                       src="/search-type-1.png"
                       alt="cafe scenario"
@@ -232,7 +232,7 @@ export default function Home() {
                   <CardDescription className="mb-3 text-center">
                     支持搜索，点击选中的知识内容后跳转到所需知识位置
                   </CardDescription>
-                  <div className="flex gap-4">
+                  <div className="flex flex-col gap-4 md:flex-row ">
                     <Image
                       src="/quick-check.png"
                       alt="cafe scenario"
